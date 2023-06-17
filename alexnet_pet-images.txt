@@ -338,4 +338,4 @@ Pet Label:           golden retriever   Classifier Label:                tibetan
 Pet Label:           golden retriever   Classifier Label:           afghan hound, afghan
 Pet Label:             great pyrenees   Classifier Label:                         kuvasz
 
-** Total Elapsed Runtime: 0:0:3
+** Total Elapsed Runtime: 0:0:2

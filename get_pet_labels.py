@@ -69,10 +69,11 @@ def prepare_result_dict_using_filename_as_key_and_petname_as_value(filename_list
 
     """
     for filename in filename_list:
-        pet_name = prepare_pet_name(filename)
-        if filename in results_dic:
-            continue
-        results_dic[filename] = [pet_name]
+        if filename[0] != ".":
+            pet_name = prepare_pet_name(filename)
+            if filename in results_dic:
+                continue
+            results_dic[filename] = [pet_name]
 
 def prepare_pet_name(filename):
     """
